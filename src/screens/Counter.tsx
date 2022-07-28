@@ -13,12 +13,6 @@ export const Counter = () => {
 
       {/* Boton inferior izquierdo */}
       <Fab title="-1" position="bl" onPress={() => setCounter(counter - 1)} />
-
-      {/* <TouchableOpacity onPress={PressMinus} style={styles.fabLocationBL}>
-        <View style={styles.fab}>
-          <Text style={styles.fabText}>-1</Text>
-        </View>
-      </TouchableOpacity> */}
     </View>
   );
 };
