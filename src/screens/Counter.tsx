@@ -4,7 +4,6 @@ import {Fab} from '../components/Fab';
 
 export const Counter = () => {
   const [counter, setCounter] = useState(10);
-
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Counter:{counter}</Text>
